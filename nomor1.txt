@@ -1,0 +1,9 @@
+
+INPUT nilai AND nama siswa
+IF nilai <= 100 && nilai >=80 THEN nilai = A
+ELSE IF nilai <= 79 && nilai >=65 THEN nilai = B
+ELSE IF nilai <= 64 && nilai >=50 THEN nilai = C
+ELSE IF nilai <= 49 && nilai >=35 THEN nilai = D
+ELSE IF nilai <= 34 && nilai >=0 THEN nilai = E
+ELSE IF nilai > 100 && nilai < 0 THEN nilai = nilai invalid
+SHOW desc nilai AND nama siswa
